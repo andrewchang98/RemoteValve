@@ -13,7 +13,7 @@ String position = "n/a";
 String pressure = "n/a";
 String charge = "n/a";
 String solar = "n/a";
-String version = "valve-baccara-v0.040522.1";
+String version = "v0.060422";
 
 FuelGauge battery;
 
