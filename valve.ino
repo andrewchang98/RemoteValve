@@ -36,7 +36,6 @@ void setup() {
     pinMode(V5_EN, OUTPUT);
     pinMode(PRES_IN, INPUT);
     pinMode(SOLAR_IN, INPUT);
-    openValve(100);
 }
 
 void loop() {
