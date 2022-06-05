@@ -28,7 +28,7 @@ void setup() {
     Particle.variable("3-Battery", charge);
     Particle.variable("4-Solar", solar);
     Particle.variable("5-Version", version);
-    Particle.variable("6-Sensor", SENSOR)
+    Particle.variable("6-Sensor", SENSOR);
     
     pinMode(DRVIN1, OUTPUT);
     pinMode(DRVIN2, OUTPUT);
