@@ -9,7 +9,7 @@ String SENSOR = "PX3";
 
 const double pressureLimit = 46.0;
 
-String position = "n/a";
+String position = "???";
 String pressure = "n/a";
 String charge = "n/a";
 String solar = "n/a";
