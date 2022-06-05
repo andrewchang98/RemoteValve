@@ -59,7 +59,7 @@ int terminal(String cmd) {
     return -1;
 }
 
-void openValve(int t) {
+void closeValve(int t) {
     digitalWrite(DRVSLP, HIGH);
     digitalWrite(DRVIN1, HIGH);
     digitalWrite(DRVIN2, LOW);
@@ -67,10 +67,10 @@ void openValve(int t) {
     digitalWrite(DRVSLP, LOW);
     digitalWrite(DRVIN1, LOW);
     digitalWrite(DRVIN2, LOW);
-    position = "open";
+    position = "closed";
 }
 
-void closeValve(int t) {
+void openValve(int t) {
     digitalWrite(DRVSLP, HIGH);
     digitalWrite(DRVIN1, LOW);
     digitalWrite(DRVIN2, HIGH);
@@ -78,7 +78,7 @@ void closeValve(int t) {
     digitalWrite(DRVSLP, LOW);
     digitalWrite(DRVIN1, LOW);
     digitalWrite(DRVIN2, LOW);
-    position = "closed";
+    position = "open";
 }
 
 void checkBat() {
