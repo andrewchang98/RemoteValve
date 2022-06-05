@@ -81,7 +81,7 @@ void openValve(int t) {
 }
 
 void checkBat() {
-    double dQ = battery.getNormalizedSoC();
+    double dQ = battery.getSoC();
     double dS = analogRead(SOLAR_IN) * 0.008072; //0.0008 * 10.09
     String sQ = String(dQ, 0);
     String sS = String(dS, 1);
